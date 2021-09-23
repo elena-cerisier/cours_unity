@@ -15,3 +15,10 @@ pour créer un gameObject à partir d'une source :
 Instantiate(gameObject);
 ```
 
+- en récupérant l'instance créee pour la détruire ensuite : 
+```csharp
+GameObject clone = Instantiate(gameObject);
+Destroy(clone, 5f);
+```
+
+[voir usage dans CloneOnclick.cs] (./Assets/CloneOnClick.cs)
